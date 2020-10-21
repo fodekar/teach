@@ -91,7 +91,11 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
+        ],
+        "db-schema-create": "php bin/console doctrine:schema:create",
+        "db-populate": "php bin/console doctrine:fixtures:load --append",
+        "db-migrate": "php bin/console doctrine:migration:migrate --no-interaction",
+        "db-update": "rm -rf migrations/Version* && php bin/console doctrine:migration:diff && php bin/console doctrine:migration:migrate --no-interaction"
     },
     "conflict": {
         "symfony/symfony": "*"
