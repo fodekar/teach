@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> {% block stylesheets %}
+    <link rel="stylesheet" href="/css/style.css"> {% endblock %}
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <ul class="navbar">
+                <li class="brand">
+                    <h3>Teach'r</h3>
+                </li>
+                <li class="link">
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="link">
+                    <a href="#">Mes Cours</a>
+                </li>
+                <li class="link">
+                    <a href="#">Mon Profl</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row dashboard">
+            <div class="col-9">
+                <div>
+                    <table>
+                        <tr>
+                            <td><img src="images/icons/contact.jpg" /></td>
+                            <td>
+                                <p>
+                                    <span class="text">Bonjour, Pierre</span>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-3 title">
+                <div class="carreDashboard">
+                    <h1 class="teste" test>Prochain Cours</h1>
+                    <div class="test_2">
+                        <h2>Le lundi 23 Decmbre</h2>
+                        <p class="test4">
+                            Cours de mathémathiques avec Charles
+                        </p>
+                        <div class="test3">
+                            <a class="btn btn-primary" href="#" role="button">Détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="orange">
+                    <h1 class="test_1">235x180</h1>
+                    <div class="test_2">
+                        <h2>Prendre un cours régulier</h2>
+                        <p class="test4">
+                            This is wider card with supportting text below as a natural lead -in to additional content. This content is a little bit longer.
+                        </p>
+                        <div class="test3">
+                            <a class="btn btn-primary" href="#" role="button">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="bleu">
+                    <h1 class="test_2_bis">235x180</h1>
+                    <div class="test_2">
+                        <h2>Prendre un cours ponctuel</h2>
+                        <p class="test4">
+                            This is wider card with supportting text below as a natural lead -in to additional content. This content is a little bit longer.
+                        </p>
+                        <div class="test3">
+                            <a class="btn btn-primary" href="#" role="button">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="rouge">
+                    <h1 class="test_3_bis">235x180</h1>
+                    <div class="test_2">
+                        <h2>Résever un stage</h2>
+                        <p class="test4">
+                            This is wider card with supportting text below as a natural lead -in to additional content. This content is a little bit longer.
+                        </p>
+                        <div class="test3">
+                            <a class="btn btn-primary" href="#" role="button">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% block body %}{% endblock %} {% block javascripts %}{% endblock %}
+</body>
+
+</html>

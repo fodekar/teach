@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> {% block stylesheets %}
+    <link rel="stylesheet" href="/css/style.css"> {% endblock %}
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <ul class="navbar">
+                <li class="brand">
+                    <h3>Teach'r</h3>
+                </li>
+                <li class="link">
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="link">
+                    <a href="#">Mes Cours</a>
+                </li>
+                <li class="link">
+                    <a href="#">Mon Profl</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <h1>Prochain cours : le Lundi 23 Décembre</h1>
+
+    {% block body %}{% endblock %} {% block javascripts %}{% endblock %}
+</body>
+
 </html>

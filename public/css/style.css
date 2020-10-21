@@ -1,0 +1,239 @@
+header {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 2px solid black;
+}
+
+.menu {
+    margin: auto;
+    width: 85%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    min-height: 52px;
+    margin-top: 20px;
+    background: #f8f8f8;
+}
+
+.navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    padding: 18px 0;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.navbar li.brand {
+    color: #999;
+}
+
+.navbar li.link:hover a {
+    background-color: #e0e0e0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #999;
+    font-weight: 700;
+}
+
+.carre {
+    width: 90%;
+    height: 380px;
+    min-height: 500px;
+    background-color: #fff;
+    box-shadow: 3px 4px 14px #d4d4d4;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.carreDashboard {
+    width: 100%;
+    min-height: 50px;
+    background-color: #fff;
+    border: 2px solid gray;
+}
+
+.teste {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 2px solid gray;
+    background-color: #f8f8f8;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.test_2 {
+    padding: 0 10px 0 4px;
+}
+
+.test3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.test4 {
+    padding: 0 10px;
+}
+
+.title {
+    padding: 0;
+}
+
+.course .row {
+    margin-bottom: 40px;
+}
+
+.course {
+    margin-top: 20px;
+}
+
+.course ul {
+    display: inline;
+}
+
+.student {
+    font-weight: 700;
+}
+
+.label {
+    font-weight: 700;
+}
+
+.duration {
+    font-weight: 700 !important;
+}
+
+.hourStart {
+    color: #999;
+    font-weight: 600;
+}
+
+.date {
+    color: #999;
+    font-weight: 600;
+}
+
+.teacher {
+    font-weight: 700;
+}
+
+.details {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.details a {
+    padding: 10px 20px;
+    width: 350px;
+    margin: auto;
+    background-color: rgb(217, 238, 255);
+    border-color: rgb(217, 238, 255);
+    color: rgb(90, 180, 248);
+    font-weight: 800;
+}
+
+.details a:hover {
+    background-color: rgb(217, 238, 255);
+    border-color: rgb(217, 238, 255);
+}
+
+.dashboard {
+    padding: 100px 70px;
+    padding-right: 0;
+}
+
+.text {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.orange {
+    width: 100%;
+    min-height: 235px;
+    background-color: #fff;
+    border: 2px solid gray;
+}
+
+.bleu {
+    width: 100%;
+    min-height: 235px;
+    background-color: #fff;
+    border: 2px solid gray;
+}
+
+.rouge {
+    width: 100%;
+    min-height: 235px;
+    background-color: #fff;
+    border: 2px solid gray;
+}
+
+.test_1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 2px solid gray;
+    background-color: orange;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.test_2_bis {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 2px solid gray;
+    background-color: blue;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.test_3_bis {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 2px solid gray;
+    background-color: red;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
